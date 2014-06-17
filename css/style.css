@@ -123,8 +123,8 @@
 	}
 
 		header.special:before, header.special:after {
-			border-bottom: solid 1.5px;
-			border-top: solid 1.5px;
+			/*border-bottom: solid 1.5px;
+			border-top: solid 1.5px;*/
 			content: '';
 			height: 7px;
 			opacity: 0.1;
@@ -594,10 +594,18 @@
 		width: 100%;
 		z-index: 10000;
 	}
+	
+	#header .logo {
+	    height: 100px;
+    	position: absolute;
+    	top: 15px;
+	}
 
 		#header h1 {
 			font-weight: 900;
 			margin: 0;
+			margin: 35px;
+    		visibility: hidden;			
 		}
 
 			#header h1 span {
@@ -675,9 +683,9 @@
 			-o-animation: none;
 			-ms-animation: none;
 			animation: none;
-			background: transparent;
+			background: white;
 			box-shadow: none;
-			color: white;
+			color: #333333;
 			padding: 2em 2.5em;
 			position: absolute;
 		}
@@ -752,14 +760,15 @@
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");
+		background-color:linear-gradient(#75D6C3, #1ABC9C);
+		background-color:#00A98E;
+		/*background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-		background-size: 25em, 25em, auto, cover;
+		background-size: 25em, 25em, auto, cover;*/
 		color: white;
 		cursor: default;
-		padding: 6em 0;
+		padding: 12em 0 4em;
 		text-align: center;
 	}
 
@@ -810,11 +819,11 @@
 /* Main */
 
 	#main {
-		background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");
+		/*background-image: url("images/dark-tl.svg"), url("images/dark-tr.svg"), url("images/dark-bl.svg"), url("images/dark-br.svg");*/
 		background-position: top left, top right, bottom left, bottom right;
 		background-repeat: no-repeat;
 		background-size: 25em;
-		padding: 7em 0;
+		padding: 8em 0;
 	}
 
 		#main > :last-child {
@@ -841,8 +850,8 @@
 
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #645862;
-		background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner.jpg");
+		background-color: #00a98e;
+		/*background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner.jpg");*/
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;
