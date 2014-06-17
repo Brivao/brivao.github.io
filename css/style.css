@@ -595,16 +595,19 @@
 		z-index: 10000;
 	}
 	
-	#header .logo {
-	    height: 100px;
+	#header.reveal .logo {
+	    height:50px;
     	position: absolute;
-    	top: 15px;
+    	top:0px;
+	}
+	
+	#header.alt .logo {
+		height:80px;
 	}
 
 		#header h1 {
 			font-weight: 900;
 			margin: 0;
-			margin: 35px;
     		visibility: hidden;			
 		}
 
@@ -768,7 +771,7 @@
 		background-size: 25em, 25em, auto, cover;*/
 		color: white;
 		cursor: default;
-		padding: 12em 0 4em;
+		padding:7em 0 2em;
 		text-align: center;
 	}
 
