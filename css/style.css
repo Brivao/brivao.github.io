@@ -596,13 +596,13 @@
 	}
 	
 	#header.reveal .logo {
-	    height:50px;
+	    height:48px;
     	position: absolute;
     	top:0px;
 	}
 	
 	#header.alt .logo {
-		height:80px;
+		height:76px;
 	}
 
 		#header h1 {
