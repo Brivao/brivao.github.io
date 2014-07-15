@@ -64,7 +64,12 @@
 /* Header */
 
 	#header {
-		display: none;
+		/*display: none;*/
+	}
+	
+    #header.alt .logo {
+		height:48px;
+        top:12px;
 	}
 
 /* Banner */

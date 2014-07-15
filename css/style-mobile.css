@@ -25,7 +25,13 @@
 	}
 
 	header {
-		text-align: center;
+		text-align: left;
+	}
+	
+    #header.alt .logo {
+		height:48px;
+        top:10px;
+        left:5px;
 	}
 
 		header.major {

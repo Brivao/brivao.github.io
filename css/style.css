@@ -11,7 +11,7 @@
 /* Basic */
 
 	body, #skel-layers-wrapper {
-		background: #f3f6fa;
+		background: #f3f4f7;
 	}
 
 	body.loading * {
@@ -602,7 +602,8 @@
 	}
 	
 	#header.alt .logo {
-		height:76px;
+        height: 60px;
+        top: 10px;
 	}
 
 		#header h1 {
@@ -694,7 +695,7 @@
 		}
 
 			#header.alt nav {
-				right: 2.5em;
+				right: 0.5em;
 				top: 1.75em;
 			}
 
@@ -763,20 +764,18 @@
 
 	#banner {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color:linear-gradient(#75D6C3, #1ABC9C);
-		background-color:#00A98E;
+		background-color:#ee8912;
 		/*background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("../images/banner.jpg");
 		background-position: bottom left, bottom right, top left, top center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
 		background-size: 25em, 25em, auto, cover;*/
 		color: white;
 		cursor: default;
-		padding:7em 0 2em;
+		padding:5em 0 1em;
 		text-align: center;
 	}
 
 		#banner .inner {
-			background: rgba(52, 27, 43, 0.5);
 			color: white;
 			display: inline-block;
 			padding: 3em;
@@ -853,7 +852,7 @@
 
 	#cta {
 		background-attachment: scroll, scroll, scroll, fixed;
-		background-color: #00a98e;
+		background-color: #ee8912;
 		/*background-image: url("images/light-tl.svg"), url("images/light-tr.svg"), url("images/overlay.png"), url("../images/banner.jpg");*/
 		background-position: top left, top right, top left, bottom center;
 		background-repeat: no-repeat, no-repeat, repeat, no-repeat;
@@ -870,7 +869,6 @@
 /* Footer */
 
 	#footer {
-		background: #e8eef4;
 		color: #7c8081;
 		padding: 5em 5em 10em 5em;
 		text-align: center;

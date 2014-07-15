@@ -40,6 +40,11 @@
 	#header nav ul li {
 		margin-left: 1em;
 	}
+	
+    #header.alt .logo {
+        height: 60px;
+        top: 7px;
+    }
 
 /* Banner */
 
