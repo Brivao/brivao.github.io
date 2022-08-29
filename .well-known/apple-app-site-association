@@ -1,0 +1,14 @@
+{
+  "applinks": {
+      "details": [
+           {
+             "appIDs": [ "82F4G9NW3P.com.makappi.iOS"],
+             "components": [
+               {
+                  "/": "/*",
+               },
+             ]
+           }
+       ]
+   },
+}
